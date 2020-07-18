@@ -6,6 +6,7 @@ import ComFilhos from './components/ComFilhos';
 import Card from './components/layout/Card';
 import Repeticao from './components/Repeticao';
 import Condicional from './components/Condicional';
+import CondicionalComIf from './components/CondicionalComIf';
 
 class App extends Component {
   constructor(props) {
@@ -16,13 +17,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Card titulo="#5 Condicional v1">
+        <Card titulo="#06 Condicional com If">
+          <CondicionalComIf numero = {12}></CondicionalComIf>
+        </Card>
+        <Card titulo="#05 Condicional v1">
           <Condicional numero = {11}></Condicional>
         </Card>
-        <Card titulo="#4 Repeticao">
+        <Card titulo="#04 Repeticao">
         <Repeticao></Repeticao>
         </Card>
-        <Card titulo="#3 Componente com filhos">
+        <Card titulo="#03 Componente com filhos">
           <ComFilhos>
             <ul>
               <li>Ana</li>
@@ -32,10 +36,10 @@ class App extends Component {
             </ul>
           </ComFilhos>
         </Card>
-        <Card titulo="#2 Componente com parametro">
+        <Card titulo="#02 Componente com parametro">
           <ComParametro titulo="Esse e um titulo" subtitulo="Esse e um subtitulo"></ComParametro>
         </Card>
-        <Card titulo="#1 Primeiro componente">
+        <Card titulo="#01 Primeiro componente">
           <Primeiro />
         </Card>
       </div>
