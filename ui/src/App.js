@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
-import Primeiro from './components/Primeiro';
-import ComParametro from './components/ComParametro';
-import ComFilhos from './components/ComFilhos';
 import Card from './components/layout/Card';
-import Repeticao from './components/Repeticao';
-import Condicional from './components/Condicional';
-import CondicionalComIf from './components/CondicionalComIf';
+import Repeticao from './components/basicos/Repeticao';
+import Condicional from './components/basicos/Condicional';
+import CondicionalComIf from './components/basicos/CondicionalComIf';
+import Primeiro from './components/basicos/Primeiro';
+import ComParametro from './components/basicos/ComParametro';
+import ComFilhos from './components/basicos/ComFilhos';
 
 class App extends Component {
   constructor(props) {
