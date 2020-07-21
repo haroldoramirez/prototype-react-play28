@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -36,4 +35,9 @@
 
 h1, h2 {
   font-weight: 300;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
 }

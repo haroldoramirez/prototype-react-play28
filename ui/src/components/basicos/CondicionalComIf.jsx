@@ -2,6 +2,7 @@ import React from 'react';
 import If from './If';
 
 export default props => {
+  //Props somente como leitura
   return (
     <div>
       <h2>O numero e {props.numero}</h2>
