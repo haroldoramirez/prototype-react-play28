@@ -1,9 +1,14 @@
 import React from 'react';
 
 //Arrow functions sem parametro
-export default () =>
-  <React.Fragment>
-    <h1>Primeiro Componente (Arrow)</h1>
-    <h2>Exemplo de um componente React</h2>
-  </React.Fragment>
+export default props => {
+  return (
+    <>
+      <h3>Primeiro Componente (Arrow)</h3>
+      <h4>Exemplo de um componente React</h4>
+      <p>Footer</p>
+    </>
+  )
+}
+
 

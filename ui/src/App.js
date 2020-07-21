@@ -64,10 +64,8 @@ class App extends Component {
             <Card titulo="#02 Componente com parametro" color="#008BBA">
               <ComParametro titulo="Esse e um titulo" subtitulo="Esse e um subtitulo"></ComParametro>
             </Card>
-            <Card titulo="#01 Primeiro componente" color="#6E9ECF">
-              <Primeiro />
-            </Card>
           </div>
+          <Primeiro />
       </div>
     );
   }
