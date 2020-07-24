@@ -2,6 +2,9 @@
   "name": "java-play-react-seed",
   "version": "1.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "rimraf ../public && react-scripts build && ncp build ../public && rimraf build",
